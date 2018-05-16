@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="indicator_animator">res/animator/indicator_animator.xml</animator>
+    <animator name="scale_with_alpha">res/animator/scale_with_alpha.xml</animator>
+</resources>

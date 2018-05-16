@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/ad_container" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:background="@color/blue" app:layout_width="match_parent" app:layout_height="match_parent">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <ImageView app:id="@+id/cpu_percent_progress_bg" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:layout_centerInParent="true" />
+            <utility.quickest.phonebooster.view.RoundProgressBar app:id="@+id/cpu_percent_progress_bar" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:layout_centerInParent="true" app:rpb_roundColor="#252c47" app:rpb_roundProgressColor="#2899fe" app:rpb_roundWidth="5dp" app:rpb_max="100" app:rpb_style="0" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true"
+                <LinearLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <utility.quickest.phonebooster.view.CustomRiseNumberTextView app:id="@+id/cpu_percent_text" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/MemoryPercentTextViewStyle" />
+                    <TextView app:textSize="@dimen/main_text_size_big" app:textColor="@color/main_color" app:id="@+id/cpu_percent_unit" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="4dp" app:text="@string/percent" />
+                </LinearLayout>
+                <TextView app:textSize="15sp" app:textColor="@color/main_color" app:id="@+id/cpu_percent_tag" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="4dp" app:text="@string/memory" app:fontFamily="sans-serif-light" />
+                <TextView app:textSize="13sp" app:textColor="#555555" app:id="@+id/cpu_percent_detail_text" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView app:textSize="15sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/cpu_detail_button" app:background="@drawable/bg_ad_cta6" app:paddingLeft="@dimen/gap_big" app:paddingRight="@dimen/gap_big" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_big" app:text="@string/phone_boost" />
+    </LinearLayout>
+</FrameLayout>

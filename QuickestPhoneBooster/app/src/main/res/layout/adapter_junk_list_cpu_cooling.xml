@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:background="@color/white" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+            <ImageView android:id="@+id/state_button" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="UNKNOWN_DATA_0x1201" android:layout_marginRight="@dimen/gap_big" android:src="@drawable/ic_multi_choose" android:contentDescription="@string/dummy_string" />
+            <ImageView android:id="@+id/app_icon" android:layout_width="UNKNOWN_DATA_0x2101" android:layout_height="UNKNOWN_DATA_0x2101" android:layout_marginRight="@dimen/gap_big" android:contentDescription="@string/dummy_string" />
+            <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="15sp" android:textColor="@color/gray3" android:id="@+id/app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+                <TextView android:textSize="11sp" android:textColor="@color/gray5" android:id="@+id/app_tag" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ignore_list" />
+                <LinearLayout android:orientation="horizontal" android:id="@+id/tag_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                    <TextView android:textSize="12sp" android:textColor="@color/gray_dark" android:id="@+id/app_tag1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="12sp" android:textColor="@color/gray_dark" android:id="@+id/app_tag2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_small" android:layout_marginRight="@dimen/gap_small" android:text="@string/version" />
+                    <TextView android:textSize="12sp" android:textColor="@color/gray_dark" android:id="@+id/app_tag3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_small" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="15sp" android:textColor="@color/gray5" android:id="@+id/app_junk_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

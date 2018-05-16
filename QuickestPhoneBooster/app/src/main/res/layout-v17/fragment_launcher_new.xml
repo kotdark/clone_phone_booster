@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@color/launcher_bg_color" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/icon_container" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="2.0">
+            <ImageView app:id="@+id/launcher_icon" app:layout_width="UNKNOWN_DATA_0x8201" app:layout_height="UNKNOWN_DATA_0xaa01" app:scaleType="fitCenter" app:contentDescription="@string/dummy_string" />
+            <TextView app:textSize="40sp" app:textColor="@color/white" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" />
+        </LinearLayout>
+        <android.support.v7.widget.CardView app:id="@+id/launcher_open_now_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="40dp" app:layout_marginRight="40dp" app:layout_marginStart="40dp" app:layout_marginEnd="40dp" app:cardBackgroundColor="#0ce99e" app:cardElevation="2dp" app:cardPreventCornerOverlap="false">
+            <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textSize="20sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/launcher_open_now" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/open_now1" app:layout_centerVertical="true" app:fontFamily="sans-serif-medium" />
+                <ImageView app:id="@+id/halo" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_cta_halo" app:layout_centerVertical="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@+id/launcher_term_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="23dp" app:layout_marginTop="40dp" app:layout_marginRight="23dp" app:layout_marginBottom="12dp" app:layout_marginStart="23dp" app:layout_marginEnd="23dp">
+            <ImageView app:layout_width="UNKNOWN_DATA_0xc01" app:layout_height="UNKNOWN_DATA_0xc01" app:layout_marginTop="4dp" app:layout_marginRight="5dp" app:src="@drawable/ic_checkbox1" />
+            <TextView app:textSize="13dp" app:textColor="@color/white" app:id="@+id/launcher_term_privacy1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/launcher_tip1" />
+        </LinearLayout>
+        <LinearLayout app:paddingTop="8dp" app:paddingBottom="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="40dp" app:layout_marginTop="20dp" app:layout_marginRight="40dp" app:layout_marginStart="40dp" app:layout_marginEnd="40dp">
+            <TextView app:textSize="12sp" app:textColor="@color/white" app:id="@+id/launcher_term_privacy" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/launcher_check_string" />
+        </LinearLayout>
+        <TextView app:textSize="16sp" app:textColor="@color/white" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="20dp" />
+    </LinearLayout>
+    <RelativeLayout app:id="@+id/ad_container_container" app:background="@color/blue" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/bottom_tag" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x2101" app:layout_height="UNKNOWN_DATA_0x2101" app:src="@drawable/ic_launcher" />
+            <TextView app:textSize="@dimen/launcher_ad_app_icon_size" app:textColor="@color/white" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="8dp" app:text="@string/app_name" app:layout_weight="1.0" />
+        </LinearLayout>
+        <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="@dimen/gap_normal" app:layout_marginTop="@dimen/gap_big" app:layout_marginRight="@dimen/gap_normal" app:layout_marginBottom="@dimen/gap_big" app:layout_below="@+id/bottom_tag" app:cardBackgroundColor="@color/white" app:cardCornerRadius="5dp" app:cardElevation="1dp">
+            <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+                <FrameLayout app:id="@+id/ad_container" app:layout_width="match_parent" app:layout_height="match_parent" />
+                <FrameLayout app:id="@+id/skip_container" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big" app:layout_alignParentRight="true">
+                    <ImageView app:id="@+id/skip" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="UNKNOWN_DATA_0x1401" app:layout_marginTop="@dimen/gap_normal" app:layout_marginRight="@dimen/gap_small" app:src="@drawable/ic_close_gray4" />
+                    <TextView app:textSize="@dimen/launcher_ad_skip_text_size" app:textColor="@color/white" app:id="@+id/skip1" app:background="@drawable/bg_black50_corner_6" app:paddingLeft="@dimen/launcher_ad_skip_gap_size_h" app:paddingTop="@dimen/launcher_ad_skip_gap_size_v" app:paddingRight="@dimen/launcher_ad_skip_gap_size_h" app:paddingBottom="@dimen/launcher_ad_skip_gap_size_v" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_normal" app:text="@string/skip" app:paddingStart="@dimen/launcher_ad_skip_gap_size_h" app:paddingEnd="@dimen/launcher_ad_skip_gap_size_h" />
+                </FrameLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

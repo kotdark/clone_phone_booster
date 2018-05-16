@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/container" app:background="@drawable/bg_white_bottom_corner_2" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content"
+        <RelativeLayout app:id="@+id/image_container" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:id="@+id/ad_image" app:layout_width="match_parent" app:layout_height="wrap_content" app:scaleType="fitCenter" app:contentDescription="@string/dummy_string" />
+            <ImageView app:layout_width="UNKNOWN_DATA_0x1901" app:layout_height="UNKNOWN_DATA_0x1201" app:src="@drawable/ic_ad_tag_yellow" app:scaleType="fitStart" />
+        </RelativeLayout>
+        <LinearLayout app:orientation="horizontal" app:background="@color/exit_dialog_ad_detail_bg" app:paddingLeft="@dimen/gap_small" app:paddingTop="@dimen/gap_small" app:paddingRight="@dimen/gap_small" app:paddingBottom="@dimen/gap_small" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignBottom="@+id/image_container">
+            <utility.quickest.phonebooster.view.BacaCircleImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_icon" app:layout_width="UNKNOWN_DATA_0x2401" app:layout_height="UNKNOWN_DATA_0x2401" app:scaleType="centerCrop" app:civ_image_type="0" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:paddingLeft="@dimen/gap_small" app:paddingRight="@dimen/gap_small" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                <TextView app:textSize="14dp" app:textColor="@color/white3" app:ellipsize="end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif-medium" />
+                <TextView app:textSize="14dp" app:textColor="@color/white3" app:ellipsize="end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_desc" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="0" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <TextView app:textSize="15sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_call" app:background="@drawable/bg_ad_call_solid_blue_2" app:paddingLeft="@dimen/gap_tiny" app:paddingTop="@dimen/gap_tiny" app:paddingRight="@dimen/gap_tiny" app:paddingBottom="@dimen/gap_tiny" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="1" app:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+    <RelativeLayout app:id="@+id/memory_junk_size_container" app:background="@color/white" app:paddingTop="12dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc801">
+        <LinearLayout app:orientation="horizontal" app:id="@id/action_bar" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_back_icon" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="wrap_content" app:layout_height="match_parent" app:paddingStart="8dp" app:paddingEnd="8dp">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_back_gray_dark" app:scaleType="fitCenter" app:contentDescription="@string/dummy_string" />
+            </LinearLayout>
+            <TextView app:textSize="20sp" app:textColor="@color/gray3" app:ellipsize="end" app:id="@id/action_bar_title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:text="@string/app_name" app:maxLines="1" app:layout_weight="1.0" app:fontFamily="sans-serif-medium" app:layout_marginStart="12dp" />
+            <RelativeLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_ad_icon" app:paddingLeft="8dp" app:paddingRight="8dp" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="match_parent" app:paddingStart="8dp" app:paddingEnd="8dp">
+                <ImageView app:id="@+id/action_bar_ad_icon_image" app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_ad" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+                <ImageView app:id="@+id/action_bar_ad_red_dot" app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x401" app:layout_height="UNKNOWN_DATA_0x401" app:layout_marginLeft="2dp" app:src="@drawable/ic_action_bar_hint_red" app:layout_toRightOf="@+id/action_bar_ad_icon_image" app:contentDescription="@string/dummy_string" app:layout_marginStart="2dp" app:layout_toEndOf="@+id/action_bar_ad_icon_image" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView app:padding="@dimen/gap_big" app:layout_width="wrap_content" app:layout_height="match_parent" app:src="@drawable/ic_phone_boost_gray_light" app:scaleType="fitEnd" app:layout_below="@id/action_bar" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:contentDescription="@string/dummy_string" app:layout_alignParentEnd="true" />
+        <RelativeLayout app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_below="@id/action_bar" app:layout_centerHorizontal="true">
+            <utility.quickest.phonebooster.view.CustomRiseNumberTextView app:textSize="60dp" app:textColor="@color/main_color" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/memory_junk_size" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="100dp" app:text="0" app:maxLines="1" app:layout_centerVertical="true" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_toRightOf="@+id/memory_junk_size" app:layout_alignTop="@+id/memory_junk_size" app:layout_alignBottom="@+id/memory_junk_size" app:layout_marginStart="12dp" app:layout_toEndOf="@+id/memory_junk_size">
+                <TextView app:textSize="16dp" app:textColor="@color/main_color" app:id="@+id/memory_junk_size_suggested" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/suggested_clean" />
+                <TextView app:textSize="28dp" app:textColor="@color/main_color" app:id="@+id/memory_junk_size_unit" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="B" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <LinearLayout app:orientation="horizontal" app:id="@+id/memory_junk_size_total_container" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_below="@+id/memory_junk_size" app:layout_centerHorizontal="true">
+                <TextView app:textSize="14dp" app:textColor="@color/main_color" app:id="@+id/memory_junk_size_total_tag" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/total_found" app:fontFamily="sans-serif-medium" />
+                <TextView app:textSize="14dp" app:textColor="@color/main_color" app:id="@+id/memory_junk_size_total" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+            <ImageView app:background="@drawable/bg_progress_img" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x501" app:scaleType="fitXY" />
+            <View app:id="@+id/junk_file_progress" app:background="@color/black30p" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="UNKNOWN_DATA_0x501" app:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout app:orientation="vertical" app:id="@+id/memory_junk_clean_button_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+        <android.support.v7.widget.CardView app:id="@+id/memory_junk_clean_button_bg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:layout_marginTop="@dimen/gap_normal" app:layout_marginRight="16dp" app:layout_marginBottom="@dimen/gap_normal" app:cardBackgroundColor="@color/main_color" app:cardCornerRadius="5dp" app:cardElevation="1dp">
+            <TextView app:textSize="20sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/memory_junk_clean_button" app:padding="@dimen/gap_small" app:focusable="true" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/booste" app:fontFamily="sans-serif-medium" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <ListView app:id="@+id/memory_junk_list_view" app:layout_width="match_parent" app:layout_height="match_parent" app:divider="0x0" app:dividerHeight="0dp" app:layout_above="@+id/memory_junk_clean_button_container" app:layout_below="@+id/memory_junk_size_container" />
+    <View app:background="@drawable/bg_shadow_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x301" app:layout_above="@+id/memory_junk_clean_button_container" />
+</RelativeLayout>

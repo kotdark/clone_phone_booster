@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/container" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_tiny">
+        <TextView app:textSize="@dimen/launcher_ad_tag_text_size" app:textColor="@color/white" app:ellipsize="marquee" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_tag" app:background="@drawable/bg_ad_tag_google" app:paddingLeft="4dp" app:paddingRight="4dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="AD" />
+        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_choices" app:paddingLeft="4dp" app:paddingRight="4dp" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <ImageView app:id="@+id/ad_image_bg" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="UNKNOWN_DATA_0x1401" app:scaleType="fitXY" app:layout_centerInParent="true" />
+        <com.facebook.ads.MediaView app:id="@+id/ad_media_view" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View app:id="@+id/ad_icon_divider" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <utility.quickest.phonebooster.view.BacaCircleImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_icon" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f09001c" app:layout_height="UNKNOWN_DATA_0x7f09001c" app:scaleType="centerCrop" app:civ_image_type="0" />
+    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <TextView app:textSize="@dimen/main_page_ad_name_text_size" app:textColor="@color/white" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_name" app:paddingLeft="@dimen/main_page_ad_margin1" app:paddingRight="@dimen/main_page_ad_margin1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif-medium" />
+    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <TextView app:textSize="@dimen/text_size_small" app:textColor="@color/white" app:ellipsize="end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_desc" app:paddingLeft="@dimen/main_page_ad_margin1" app:paddingRight="@dimen/main_page_ad_margin1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif" />
+    <View app:id="@+id/ad_call_divider" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <RelativeLayout app:id="@+id/ad_call_container" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+            <View app:id="@+id/ad_call_bg_01" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+            <View app:id="@+id/ad_call_bg_02" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView app:textSize="15sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_call" app:background="@drawable/bg_ad_cta1" app:paddingLeft="30dp" app:paddingRight="30dp" app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_marginRight="@dimen/gap_big" app:text="@string/app_name" app:maxLines="1" app:includeFontPadding="false" app:layout_alignParentRight="true" app:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+</LinearLayout>

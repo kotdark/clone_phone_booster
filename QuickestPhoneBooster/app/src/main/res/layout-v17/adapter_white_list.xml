@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/blue" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="8dp" android:paddingEnd="8dp"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+        <ImageView android:id="@+id/app_icon" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="16dp" android:contentDescription="@string/dummy_string" android:layout_marginEnd="16dp" />
+        <TextView android:textSize="16sp" android:textColor="@color/white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/app_name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/action_button_container" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <ImageView android:id="@+id/action_button" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/ic_delete_blue" android:contentDescription="@string/dummy_string" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/white35p" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</LinearLayout>

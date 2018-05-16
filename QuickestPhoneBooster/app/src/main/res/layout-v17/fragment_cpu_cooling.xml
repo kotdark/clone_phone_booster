@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="horizontal" app:id="@id/action_bar" app:background="@color/white" app:paddingTop="12dp" app:paddingBottom="12dp" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_back_icon" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="wrap_content" app:layout_height="match_parent" app:paddingStart="8dp" app:paddingEnd="8dp">
+            <ImageView app:id="@+id/action_bar_back_img" app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_back_gray_dark" app:scaleType="fitCenter" app:contentDescription="@string/dummy_string" />
+        </LinearLayout>
+        <TextView app:textSize="20sp" app:textColor="@color/gray3" app:ellipsize="end" app:id="@id/action_bar_title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:text="@string/app_name" app:maxLines="1" app:layout_weight="1.0" app:fontFamily="sans-serif-medium" app:layout_marginStart="12dp" />
+        <RelativeLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_ad_icon" app:paddingLeft="8dp" app:paddingRight="8dp" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="match_parent" app:paddingStart="8dp" app:paddingEnd="8dp">
+            <ImageView app:id="@+id/action_bar_ad_icon_image" app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_ad" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+            <ImageView app:id="@+id/action_bar_ad_red_dot" app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x401" app:layout_height="UNKNOWN_DATA_0x401" app:layout_marginLeft="2dp" app:src="@drawable/ic_action_bar_hint_red" app:layout_toRightOf="@+id/action_bar_ad_icon_image" app:contentDescription="@string/dummy_string" app:layout_marginStart="2dp" app:layout_toEndOf="@+id/action_bar_ad_icon_image" />
+        </RelativeLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/temperature_unit_toggle_button_container" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/gap_normal">
+            <TextView app:id="@+id/temperature_unit_toggle_text_f" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/cpu_cooling_temperature_unit1" />
+            <ToggleButton app:id="@+id/temperature_unit_toggle_button" app:background="@drawable/bg_setting_toggle1" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x1601" app:layout_marginLeft="@dimen/gap_small" app:layout_marginRight="@dimen/gap_small" app:textOn="" app:textOff="" />
+            <TextView app:id="@+id/temperature_unit_toggle_text_c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/cpu_cooling_temperature_unit" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout app:id="@+id/temperature_container" app:background="@color/white" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/action_bar">
+        <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="20dp" app:layout_marginBottom="20dp" app:src="@drawable/ic_cpu_cooling_gray_light" app:scaleType="fitEnd" app:layout_alignTop="@+id/temperature_number_container" app:layout_alignBottom="@+id/temperature_number_container" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:contentDescription="@string/dummy_string" app:layout_marginEnd="20dp" app:layout_alignParentEnd="true" />
+        <RelativeLayout app:id="@+id/temperature_number_container" app:paddingLeft="12dp" app:paddingTop="24dp" app:paddingRight="12dp" app:paddingBottom="24dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerHorizontal="true" app:paddingStart="12dp" app:paddingEnd="12dp">
+            <TextView app:textSize="80dp" app:textColor="@color/main_color" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/temperature_number" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="60dp" app:text="0" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_toRightOf="@+id/temperature_number" app:layout_alignTop="@+id/temperature_number" app:layout_alignBottom="@+id/temperature_number" app:layout_marginStart="12dp" app:layout_toEndOf="@+id/temperature_number">
+                <TextView app:textSize="16dp" app:textColor="@color/main_color" app:id="@+id/temperature_tag" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/cpu_cooling_tag1" />
+                <TextView app:textSize="28dp" app:textColor="@color/main_color" app:id="@+id/temperature_unit" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/cpu_cooling_temperature_unit" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@+id/temperature_number_container">
+            <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageView app:background="@drawable/bg_progress_img" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x501" app:scaleType="fitXY" />
+            </RelativeLayout>
+            <TextView app:textColor="#333333" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/temperature_tip" app:background="@color/white" app:paddingLeft="12dp" app:paddingTop="4dp" app:paddingRight="12dp" app:paddingBottom="4dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="30dp" app:text="@string/cpu_cooling_tip1" app:paddingStart="12dp" app:paddingEnd="12dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout app:orientation="vertical" app:id="@+id/temperature_clean_button_container" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+        <android.support.v7.widget.CardView app:id="@+id/temperature_clean_button_bg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:layout_marginTop="@dimen/gap_normal" app:layout_marginRight="16dp" app:layout_marginBottom="@dimen/gap_normal" app:cardBackgroundColor="@color/main_color" app:cardCornerRadius="5dp" app:cardElevation="1dp">
+            <TextView app:textSize="20sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/temperature_clean_button" app:padding="@dimen/gap_small" app:focusable="true" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/cpu_cooling1" app:fontFamily="sans-serif-medium" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <ListView app:id="@+id/memory_junk_list_view" app:layout_width="match_parent" app:layout_height="match_parent" app:divider="0x0" app:dividerHeight="0dp" app:layout_above="@+id/temperature_clean_button_container" app:layout_below="@+id/temperature_container" />
+    <View app:background="@drawable/bg_shadow_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x301" app:layout_above="@+id/temperature_clean_button_container" />
+    <View app:background="@drawable/bg_shadow_bottom" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x301" app:layout_below="@+id/temperature_container" />
+    <FrameLayout app:id="@+id/temperature_wait_container_back" app:background="@color/blue" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/action_bar" />
+    <RelativeLayout app:id="@+id/temperature_wait_container" app:background="@color/blue" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true">
+        <ImageView app:id="@+id/temperature_wait_bg" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" app:contentDescription="@string/dummy_string" />
+        <ImageView app:id="@+id/temperature_wait" app:layout_width="wrap_content" app:layout_height="wrap_content" app:contentDescription="@string/dummy_string" app:translationX="5dp" />
+        <ImageView app:id="@+id/temperature_wait1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:contentDescription="@string/dummy_string" app:translationX="5dp" />
+        <ImageView app:id="@+id/temperature_wait_bg1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" app:contentDescription="@string/dummy_string" />
+        <TextView app:textSize="18sp" app:textColor="@color/white" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="24dp" app:text="@string/cpu_cooling_wait" app:layout_below="@+id/temperature_wait_bg1" app:layout_centerHorizontal="true" app:contentDescription="@string/dummy_string" />
+    </RelativeLayout>
+</RelativeLayout>

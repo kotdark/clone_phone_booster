@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/white" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:id="@+id/container" app:background="@color/white1" app:padding="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/gap_normal">
+                <utility.quickest.phonebooster.view.BacaCircleImageViewNoLimited app:id="@+id/app_icon" app:layout_width="UNKNOWN_DATA_0x2d01" app:layout_height="UNKNOWN_DATA_0x2d01" app:layout_centerInParent="true" app:civ_image_type="0" app:civ_round_corner_radius_bottom_left="0dp" app:civ_round_corner_radius_bottom_right="0dp" app:civ_round_corner_radius_top_left="0dp" app:civ_round_corner_radius_top_right="0dp" />
+            </RelativeLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textSize="15sp" app:textColor="@color/gray3" app:id="@+id/app_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_tiny" app:text="@string/app_name" app:fontFamily="sans-serif-medium" />
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/expand_malware_container" app:paddingTop="@dimen/gap_tiny" app:paddingRight="@dimen/gap_big" app:paddingBottom="@dimen/gap_tiny" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                    <TextView app:textColor="@color/gray_dark" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/malware" />
+                    <ImageView app:id="@+id/expand_malware_icon" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:layout_marginTop="1dp" app:src="@drawable/ic_arrow_down1" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView app:id="@+id/state_button" app:padding="11dp" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginLeft="@dimen/gap_big" app:src="@drawable/ic_multi_choose2" app:contentDescription="@string/dummy_string" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:id="@+id/virus_detail_container" app:paddingLeft="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="50dp">
+            <TextView app:textColor="#555555" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/antivirus_scan_finish_tag" />
+            <TextView app:textColor="@color/red" app:id="@+id/virus_desc" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

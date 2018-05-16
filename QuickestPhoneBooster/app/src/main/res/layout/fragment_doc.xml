@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <WebView android:id="@+id/doc_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/action_bar" />
+    <ImageView android:id="@+id/doc_progress" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@drawable/inde_drawable_progress" android:layout_centerInParent="true" android:contentDescription="@string/dummy_string" />
+</RelativeLayout>

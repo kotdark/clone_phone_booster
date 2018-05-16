@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/container" android:paddingLeft="@dimen/gap_big" android:paddingTop="@dimen/gap_normal" android:paddingRight="@dimen/gap_big" android:paddingBottom="@dimen/gap_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_junk_lock_screen3" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a" />
+        <TextView android:textSize="14sp" android:textColor="@color/white" android:id="@+id/unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_tiny" android:text="@string/storage" android:layout_marginStart="@dimen/gap_tiny" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textColor="@color/white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/junk_clean" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

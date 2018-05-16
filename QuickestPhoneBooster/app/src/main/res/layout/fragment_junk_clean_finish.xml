@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <include app:id="@id/action_bar" layout="@layout/action_bar" />
+    <utility.quickest.phonebooster.view.CustomScrollView app:id="@+id/scroll_view" app:background="@color/blue" app:layout_width="match_parent" app:layout_height="match_parent" app:fillViewport="true" app:layout_below="@id/action_bar">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/finish_tag_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentTop="true"
+                <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/finish_tag_container_junk_clean" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <utility.quickest.phonebooster.view.CustomCircularProgress1 app:id="@+id/finish_tag1" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x9601" />
+                    <TextView app:textSize="16sp" app:textColor="@color/white" app:id="@+id/finish_tag_container_clean_success" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="4dp" app:text="@string/clean_success" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/finish_tag_container">
+                <android.support.v7.widget.CardView app:id="@+id/phone_boost_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_phone_boost3" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/phone_boost_tip_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_phone_boost_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/phone_boost1" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/junk_clean_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_junk_clean2" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/junk_clean_tip_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_junk_clean_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/junk_clean1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/cpu_cooling_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_cpu_cooling2" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/cpu_cooling_tip_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_cpu_cooling_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/cpu_cooling1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/power_saving_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_power_saving2" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/power_saving_tip_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_power_saving_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:paddingBottom="4px" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/power_saving1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/antivirus_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_antivirus1" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/antivirus_text" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/antivirus_tip_1_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_antivirus_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:paddingBottom="4px" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/power_saving1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/quick_boost_container" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_quick_boost" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/enable_smart_feature_msg_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_quick_boost_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:paddingBottom="4px" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/create" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/open_ls_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_open_ls" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/open_ls_tip_1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_open_ls_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:paddingBottom="4px" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/antivirus_uninstall_action_yes" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView app:id="@+id/open_noti_toolbar_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/gap_big" app:cardBackgroundColor="@color/white" app:cardElevation="1dp">
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_big">
+                            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_open_noti_toolbar" app:contentDescription="@string/dummy_string" />
+                            <TextView app:textColor="@color/gray3" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/gap_small" app:text="@string/notification_toolbar_tip1" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textColor="@color/finish_noti_toolbar_color1" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="15dp" app:paddingRight="15dp" app:paddingBottom="4px" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal" app:text="@string/antivirus_uninstall_action_yes" app:fontFamily="sans-serif-medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <FrameLayout app:id="@+id/ad_container" app:background="@color/white" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </utility.quickest.phonebooster.view.CustomScrollView>
+    <RelativeLayout app:id="@+id/finish_tag_container_float" app:background="@color/blue" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/action_bar">
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/finish_tag_container_junk_clean_float" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true" app:translationY="4dp">
+            <ImageView app:id="@+id/finish_tag_float" app:layout_width="UNKNOWN_DATA_0x3201" app:layout_height="UNKNOWN_DATA_0x3201" app:src="@drawable/ic_circle_done" />
+            <TextView app:textSize="16sp" app:textColor="@color/white" app:id="@+id/finish_tag_container_clean_success_float" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="4dp" app:text="@string/clean_success" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

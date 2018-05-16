@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/container" android:background="@color/black30p" android:padding="55dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_corner_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="10dp">
+        <TextView android:textSize="15sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="@dimen/gap_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/temperature_unit" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/celsius_container" android:paddingLeft="@dimen/gap_big" android:paddingTop="@dimen/gap_small" android:paddingRight="@dimen/gap_big" android:paddingBottom="@dimen/gap_small" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="@color/black" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/cpu_cooling_temperature_unit" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/celsius" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_radio_unselect" android:contentDescription="@string/dummy_string" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/fahrenheit_container" android:paddingLeft="@dimen/gap_big" android:paddingTop="@dimen/gap_small" android:paddingRight="@dimen/gap_big" android:paddingBottom="@dimen/gap_small" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="@color/black" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/cpu_cooling_temperature_unit1" android:layout_weight="1.0" />
+            <ImageView android:id="@+id/fahrenheit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_radio_unselect" android:contentDescription="@string/dummy_string" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

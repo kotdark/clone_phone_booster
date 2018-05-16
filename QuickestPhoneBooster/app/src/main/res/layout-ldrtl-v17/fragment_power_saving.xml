@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/white2" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:orientation="horizontal" app:id="@id/action_bar" app:background="@color/white" app:paddingTop="12dp" app:paddingBottom="12dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <RelativeLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="8dp" app:paddingRight="8dp" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_ad" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+                <ImageView app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x401" app:layout_height="UNKNOWN_DATA_0x401" app:layout_marginRight="2dp" app:src="@drawable/ic_action_bar_hint_red" app:layout_toLeftOf="@+id/action_bar_ad_icon_image" app:contentDescription="@string/dummy_string" />
+            </RelativeLayout>
+            <TextView app:textSize="20sp" app:textColor="@color/gray3" app:ellipsize="end" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/action_bar_title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginRight="12dp" app:text="@string/app_name" app:maxLines="1" app:layout_weight="1.0" app:fontFamily="sans-serif-medium" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_back_icon" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_back_gray_dark" app:scaleType="fitCenter" app:contentDescription="@string/dummy_string" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:id="@+id/power_saving_detail_contaienr" app:background="@color/white" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:paddingTop="@dimen/gap_big" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_power_saving_gray_light" />
+                <LinearLayout app:orientation="horizontal" app:padding="@dimen/gap_normal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textSize="@dimen/text_size_small" app:textColor="@color/main_color" app:id="@+id/power_saving_detail" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:fontFamily="sans-serif-light" />
+                    <TextView app:textSize="22sp" app:textColor="@color/main_color" app:id="@+id/power_saving_detail1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView app:textSize="15sp" app:textColor="@color/gray87p" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:background="@color/white" app:paddingLeft="@dimen/gap_normal" app:paddingTop="@dimen/gap_big" app:paddingRight="@dimen/gap_normal" app:paddingBottom="@dimen/gap_big" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="30dp" app:text="@string/power_saving_tip3" app:drawableRight="@drawable/ic_power" app:drawablePadding="@dimen/gap_small" />
+        </LinearLayout>
+        <View app:background="@drawable/bg_shadow_bottom" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x301" app:layout_below="@+id/temperature_container" />
+        <GridView app:id="@+id/memory_junk_grid_view" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginLeft="@dimen/gap_normal" app:layout_marginRight="@dimen/gap_normal" app:layout_marginBottom="@dimen/gap_big" app:numColumns="UNKNOWN_DATA_0x4" app:divider="0x0" app:dividerHeight="0dp" app:layout_weight="1.0" />
+        <View app:background="@drawable/bg_shadow_top" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x301" />
+        <LinearLayout app:orientation="vertical" app:id="@+id/power_saving_button_container" app:background="@color/white" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.CardView app:id="@+id/power_saving_button_bg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="16dp" app:layout_marginTop="@dimen/gap_normal" app:layout_marginRight="16dp" app:layout_marginBottom="@dimen/gap_normal" app:cardBackgroundColor="@color/main_color" app:cardCornerRadius="5dp" app:cardElevation="1dp">
+                <TextView app:textSize="20sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/power_saving_button" app:padding="@dimen/gap_small" app:focusable="true" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/cpu_cooling1" app:fontFamily="sans-serif-medium" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout app:id="@+id/power_saving_wait_container" app:background="@color/blue" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:orientation="horizontal" app:id="@+id/action_bar1" app:background="@color/blue" app:paddingTop="12dp" app:paddingBottom="12dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <RelativeLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="8dp" app:paddingRight="8dp" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_ad" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+                <ImageView app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x401" app:layout_height="UNKNOWN_DATA_0x401" app:layout_marginRight="2dp" app:src="@drawable/ic_action_bar_hint_red" app:layout_toLeftOf="@+id/action_bar_ad_icon_image" app:contentDescription="@string/dummy_string" />
+            </RelativeLayout>
+            <TextView app:ellipsize="end" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_title1" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginRight="12dp" app:text="@string/app_name" app:maxLines="1" app:layout_weight="1.0" style="@style/ActionBarTitleTextViewStyle1" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/action_bar_back_icon1" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0900c9" app:layout_height="UNKNOWN_DATA_0x7f0900c8" app:src="@drawable/ic_back_white1" app:scaleType="fitCenter" app:contentDescription="@string/dummy_string" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView app:id="@+id/power_saving_wait_view1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        <ImageView app:id="@+id/power_saving_wait_view2" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        <TextView app:textSize="16sp" app:textColor="@color/white" app:padding="@dimen/gap_big" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/power_saving_wait_tip" app:layout_below="@+id/power_saving_wait_view1" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

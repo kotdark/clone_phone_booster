@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/black30p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_container" android:background="@drawable/bg_blue_corner_7" android:padding="@dimen/gap_big" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/gap_large" android:layout_centerInParent="true">
+        <View android:id="@+id/place_holder" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="UNKNOWN_DATA_0x7801" />
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/finish_tag" android:padding="@dimen/gap_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/boosted" />
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="@dimen/gap_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/noti_toolbar_boost_finish_dialog_desc" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gap_normal">
+            <TextView android:textSize="15sp" android:textColor="@color/white35p" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_confirm" android:background="@drawable/bg_blue_corner_30" android:padding="@dimen/gap_normal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/noti_toolbar_boost_finish_dialog_no" android:layout_weight="1.0" />
+            <TextView android:textSize="15sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/yes_confirm" android:background="@drawable/bg_blue_real_corner_30" android:padding="@dimen/gap_normal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_big" android:text="@string/noti_toolbar_boost_finish_dialog_yes" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/wait_container" android:padding="@dimen/gap_big" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/wait1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@+id/wait2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@+id/wait3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@+id/wait4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@+id/wait5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pop_memory_wait5" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/blue" android:padding="@dimen/gap_big" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/close" android:padding="@dimen/gap_tiny" android:layout_width="UNKNOWN_DATA_0x7f090008" android:layout_height="UNKNOWN_DATA_0x7f090008" android:src="@drawable/ic_close_gray5" android:contentDescription="@string/dummy_string" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <ImageView android:id="@+id/illustration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/gap_big" android:scaleType="fitCenter" />
+    <TextView android:textSize="16sp" android:textColor="@color/white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/gap_big" android:text="@string/setting_notification_toolbar_dialog" android:fontFamily="sans-serif-medium" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/enable_smart_feature_text_size_ok" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/ok" android:background="@drawable/bg_blue_real_corner_20_1" android:padding="@dimen/gap_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/gap_big" android:text="@string/ok" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/tag_container" android:background="@color/blue" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/blue" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x7f0900c9" android:layout_height="UNKNOWN_DATA_0x7f0900c8" android:src="@drawable/ic_ad" android:scaleType="fitXY" android:contentDescription="@string/dummy_string" />
+                <ImageView android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginRight="2dp" android:src="@drawable/ic_action_bar_hint_red" android:layout_toLeftOf="@+id/action_bar_ad_icon_image" android:contentDescription="@string/dummy_string" />
+            </RelativeLayout>
+            <TextView android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/action_bar_title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:text="@string/app_name" android:maxLines="1" android:layout_weight="1.0" style="@style/ActionBarTitleTextViewStyle1" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/action_bar_back_icon" android:paddingLeft="8dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x7f0900c9" android:layout_height="UNKNOWN_DATA_0x7f0900c8" android:src="@drawable/ic_close_white4" android:scaleType="fitCenter" android:contentDescription="@string/dummy_string" />
+            </LinearLayout>
+        </LinearLayout>
+        <utility.quickest.phonebooster.view.CustomCircularProgress1 android:id="@+id/progress" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x9601" android:layout_centerInParent="true" />
+        <TextView android:textSize="16sp" android:textColor="@color/white" android:id="@+id/finish_tag" android:padding="@dimen/gap_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/progress" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ad_container_container" android:background="@color/blue" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="horizontal" android:background="@color/blue" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x7f0900c9" android:layout_height="UNKNOWN_DATA_0x7f0900c8" android:src="@drawable/ic_ad" android:scaleType="fitXY" android:contentDescription="@string/dummy_string" />
+                <ImageView android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginRight="2dp" android:src="@drawable/ic_action_bar_hint_red" android:layout_toLeftOf="@+id/action_bar_ad_icon_image" android:contentDescription="@string/dummy_string" />
+            </RelativeLayout>
+            <TextView android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/action_bar_title1" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:text="@string/app_name" android:maxLines="1" android:layout_weight="1.0" style="@style/ActionBarTitleTextViewStyle1" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/action_bar_back_icon1" android:paddingLeft="8dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x7f0900c9" android:layout_height="UNKNOWN_DATA_0x7f0900c8" android:src="@drawable/ic_close_white4" android:scaleType="fitCenter" android:contentDescription="@string/dummy_string" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/ad_container" android:paddingBottom="@dimen/gap_normal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/gap_normal">
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/app_name" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

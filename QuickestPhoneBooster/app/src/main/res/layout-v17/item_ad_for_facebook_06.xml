@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/container" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout app:background="@drawable/bg_white_top_corner_3" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.facebook.ads.MediaView app:id="@+id/ad_media_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+        <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_choices" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentTop="true" app:layout_alignParentRight="true" /> />
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:orientation="horizontal" app:background="@drawable/bg_white_bottom_corner_3" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_normal">
+            <utility.quickest.phonebooster.view.BacaCircleImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_icon" app:layout_width="UNKNOWN_DATA_0x2a01" app:layout_height="UNKNOWN_DATA_0x2a01" app:layout_marginLeft="@dimen/gap_normal" app:layout_marginTop="@dimen/gap_normal" app:layout_marginBottom="@dimen/gap_normal" app:scaleType="centerCrop" app:layout_marginStart="@dimen/gap_normal" app:civ_image_type="0" app:civ_round_corner_radius_bottom_left="3dp" app:civ_round_corner_radius_bottom_right="3dp" app:civ_round_corner_radius_top_left="3dp" app:civ_round_corner_radius_top_right="3dp" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_marginLeft="@dimen/gap_tiny" app:layout_weight="1.0" app:layout_marginStart="@dimen/gap_tiny">
+                <TextView app:textSize="17sp" app:textColor="@color/gray3" app:ellipsize="end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif-medium" />
+                <TextView app:textSize="12sp" app:textColor="@color/gray87p" app:ellipsize="end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_desc" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="0" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView app:textSize="17dp" app:textStyle="bold" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_call" app:background="@drawable/bg_popup_ad_cta" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x2901" app:layout_marginTop="@dimen/gap_normal" app:text="@string/app_name" app:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

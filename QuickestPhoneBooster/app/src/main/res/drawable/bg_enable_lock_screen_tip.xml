@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_01" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_02" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_03" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_04" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_05" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_06" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_07" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_08" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_09" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_10" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_11" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_12" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_13" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_14" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_15" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_16" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_17" />
+    <item android:duration="100" android:drawable="@drawable/bg_enable_lock_screen_tip_18" />
+</animation-list>

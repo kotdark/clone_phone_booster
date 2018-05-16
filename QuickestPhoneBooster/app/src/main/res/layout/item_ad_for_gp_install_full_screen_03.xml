@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/container" app:background="@color/white" app:paddingBottom="@dimen/main_page_ad_margin" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_tiny">
+            <TextView app:textSize="@dimen/launcher_ad_tag_text_size" app:textColor="@color/white" app:ellipsize="marquee" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_tag" app:background="@drawable/bg_ad_tag_google" app:paddingLeft="4dp" app:paddingRight="4dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="AD" />
+        </LinearLayout>
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:id="@+id/ad_image_bg" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="UNKNOWN_DATA_0x1401" app:layout_centerInParent="true" />
+            <com.google.android.gms.ads.formats.MediaView app:id="@+id/ad_media_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+            <ImageView app:id="@+id/ad_image" app:layout_width="match_parent" app:layout_height="wrap_content" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+            <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/gap_big" app:src="@drawable/ic_postmark" app:layout_alignBottom="@+id/ad_image_bg" app:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View app:id="@+id/ad_icon_divider" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <utility.quickest.phonebooster.view.BacaCircleImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_icon" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f09001c" app:layout_height="UNKNOWN_DATA_0x7f09001c" app:scaleType="centerCrop" app:civ_image_type="0" />
+        <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <TextView app:textSize="@dimen/main_page_ad_name_text_size" app:textColor="@color/gray3" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_name" app:paddingLeft="@dimen/main_page_ad_margin1" app:paddingRight="@dimen/main_page_ad_margin1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif-medium" />
+        <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <TextView app:textSize="@dimen/main_page_ad_desc_text_size" app:textColor="#666666" app:ellipsize="end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_desc" app:paddingLeft="@dimen/main_page_ad_margin1" app:paddingRight="@dimen/main_page_ad_margin1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif" />
+        <View app:id="@+id/ad_call_divider" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="15sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_call" app:background="@drawable/bg_ad_cta1" app:paddingLeft="30dp" app:paddingRight="30dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="1" app:includeFontPadding="false" app:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

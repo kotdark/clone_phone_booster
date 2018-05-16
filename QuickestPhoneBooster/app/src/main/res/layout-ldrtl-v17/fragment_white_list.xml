@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/blue" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/action_bar" />
+    <TextView android:textColor="@color/white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ignore_list_tip" />
+    <ListView android:id="@+id/white_list_list_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="0x0" android:dividerHeight="0dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_info_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ImageView android:id="@+id/no_info_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/white_list_add_button" android:padding="@dimen/gap_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add" />
+</LinearLayout>

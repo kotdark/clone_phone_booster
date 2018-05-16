@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <RelativeLayout app:id="@+id/container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true">
+        <View app:id="@+id/gap" app:background="@drawable/bg_white_top_corner_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6401" />
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="@drawable/bg_white_bottom_corner_5" app:paddingLeft="@dimen/gap_big" app:paddingRight="@dimen/gap_big" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@+id/gap">
+            <TextView app:textSize="@dimen/feed_back_dialog_desc_text_size" app:textColor="@color/gray3" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingTop="12dp" app:paddingBottom="12dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/feed_back_dialog_desc" />
+            <LinearLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textSize="15sp" app:textColor="@color/gray_dark" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/no_confirm" app:background="@color/white1" app:padding="8dp" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginTop="12dp" app:layout_marginBottom="12dp" app:text="@string/feed_back_dialog_later" app:layout_weight="1.0" app:fontFamily="sans-serif-medium" />
+                <android.support.v7.widget.CardView app:id="@+id/yes_confirm" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="12dp" app:layout_marginTop="12dp" app:layout_marginBottom="12dp" app:layout_weight="1.0" app:cardBackgroundColor="#ffb72c" app:cardElevation="1dp">
+                    <TextView app:textSize="15sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:padding="8dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/ok" app:fontFamily="sans-serif-medium" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView app:id="@id/image" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerHorizontal="true" app:contentDescription="@string/dummy_string" />
+        <ImageView app:id="@+id/close" app:padding="11dp" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x2401" app:layout_height="UNKNOWN_DATA_0x2401" app:src="@drawable/ic_close_blue" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+    </RelativeLayout>
+</RelativeLayout>

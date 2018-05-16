@@ -1,0 +1,697 @@
+{
+  "AdUnitDetails": {
+    "Anti_Virus": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1544473228976809",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus#fb_cpm",
+        "AdPlacementPriority": 0,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/9260305401",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1544473475643451",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus#fb_fill",
+        "AdPlacementPriority": 20,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/8964791939",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus#admob",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "7c49c7e754934703aad8971c401bf50e",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus#mopub",
+        "AdPlacementPriority": 50,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "14909",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus#mp",
+        "AdPlacementPriority": 100,
+        "AdPlacementType": "mp",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Anti_Virus_Inter": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/2302524126",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus_inter#admob",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob_inter",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 0.45,
+        "AdPlacementId": "1394494647308002_1544473695643429",
+        "AdPlacementName": "clean-gogo-newuser#anti_virus_inter#inter_fb",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "fb_inter",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "CPU_Cool": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.3765,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/4117189391",
+        "AdPlacementName": "clean-gogo-newuser#cpu_cool#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1481100951980704",
+        "AdPlacementName": "clean-gogo-newuser#cpu_cool#fb_cpm",
+        "AdPlacementPriority": 15,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.36,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/1393811371",
+        "AdPlacementName": "clean-gogo-newuser#cpu_cool#admob",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.599605,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1481101731980626",
+        "AdPlacementName": "clean-gogo-newuser#cpu_cool#fb_fill",
+        "AdPlacementPriority": 35,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "14909",
+        "AdPlacementName": "clean-gogo-newuser#cpu_cool#mp",
+        "AdPlacementPriority": 60,
+        "AdPlacementType": "mp",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "d496a7bcc49f466999f9a18b87d28cf2",
+        "AdPlacementName": "clean-gogo-newuser#cpu_cool#mopub",
+        "AdPlacementPriority": 70,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Junk1": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1395565870534213",
+        "AdPlacementName": "clean-gogo-newuser#junk1#fb_cpm",
+        "AdPlacementPriority": 0,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.295486,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/1054010030",
+        "AdPlacementName": "clean-gogo-newuser#junk1#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1395565870534213",
+        "AdPlacementName": "clean-gogo-newuser#junk1#fb_fill",
+        "AdPlacementPriority": 20,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.374182,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/9170327296",
+        "AdPlacementName": "clean-gogo-newuser#junk1#admob",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "7c49c7e754934703aad8971c401bf50e",
+        "AdPlacementName": "clean-gogo-newuser#junk1#mopub",
+        "AdPlacementPriority": 50,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "14909",
+        "AdPlacementName": "clean-gogo-newuser#junk1#mp",
+        "AdPlacementPriority": 100,
+        "AdPlacementType": "mp",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Junk2": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/1228435703",
+        "AdPlacementName": "clean-gogo-newuser#junk2#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/1109850357",
+        "AdPlacementName": "clean-gogo-newuser#junk2#admob",
+        "AdPlacementPriority": 20,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "7c49c7e754934703aad8971c401bf50e",
+        "AdPlacementName": "clean-gogo-newuser#junk2#mopub",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1",
+        "AdPlacementName": "clean-gogo-newuser#junk2#own",
+        "AdPlacementPriority": 40,
+        "AdPlacementType": "own",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Junk_Inter": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.649078,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/6491884914",
+        "AdPlacementName": "clean-gogo-newuser#junk_inter#admob",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob_inter",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 0.45,
+        "AdPlacementId": "1394494647308002_1442470272510439",
+        "AdPlacementName": "clean-gogo-newuser#junk_inter#inter_fb",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "fb_inter",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Locked_Screen": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.191415,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/4167258532",
+        "AdPlacementName": "clean-gogo-newuser#locked_screen#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.189,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/5951113493",
+        "AdPlacementName": "clean-gogo-newuser#locked_screen#admob",
+        "AdPlacementPriority": 20,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "746d751e04644c63bde3d3e59aea70ef",
+        "AdPlacementName": "clean-gogo-newuser#locked_screen#mopub",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1",
+        "AdPlacementName": "clean-gogo-newuser#locked_screen#own",
+        "AdPlacementPriority": 40,
+        "AdPlacementType": "own",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Main_Carousel": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.271656,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/6329600362",
+        "AdPlacementName": "clean-gogo-newuser#main_carousel#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1500859550004844",
+        "AdPlacementName": "clean-gogo-newuser#main_carousel#fb_cpm",
+        "AdPlacementPriority": 15,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.270563,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/5016518699",
+        "AdPlacementName": "clean-gogo-newuser#main_carousel#admob",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1500859970004802",
+        "AdPlacementName": "clean-gogo-newuser#main_carousel#fb_fill",
+        "AdPlacementPriority": 35,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "a4027d4bdd124a199a126289683b30d8",
+        "AdPlacementName": "clean-gogo-newuser#main_carousel#mopub",
+        "AdPlacementPriority": 40,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Process1": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.754203,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1395564490534351",
+        "AdPlacementName": "clean-gogo-newuser#process1#fb_cpm",
+        "AdPlacementPriority": 0,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.270679,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/1442034602",
+        "AdPlacementName": "clean-gogo-newuser#process1#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.5598,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/2236241525",
+        "AdPlacementName": "clean-gogo-newuser#process1#admob",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.454243,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1395565450534255",
+        "AdPlacementName": "clean-gogo-newuser#process1#fb_fill",
+        "AdPlacementPriority": 35,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "d496a7bcc49f466999f9a18b87d28cf2",
+        "AdPlacementName": "clean-gogo-newuser#process1#mopub",
+        "AdPlacementPriority": 50,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Process2": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/9858568910",
+        "AdPlacementName": "clean-gogo-newuser#process2#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/1050140608",
+        "AdPlacementName": "clean-gogo-newuser#process2#admob",
+        "AdPlacementPriority": 20,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "d496a7bcc49f466999f9a18b87d28cf2",
+        "AdPlacementName": "clean-gogo-newuser#process2#mopub",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1",
+        "AdPlacementName": "clean-gogo-newuser#process2#own",
+        "AdPlacementPriority": 50,
+        "AdPlacementType": "own",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Process_Inter": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.605318,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/3482578194",
+        "AdPlacementName": "clean-gogo-newuser#process_inter#admob",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob_inter",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 0.45,
+        "AdPlacementId": "1394494647308002_1442470272510439",
+        "AdPlacementName": "clean-gogo-newuser#process_inter#inter_fb",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "fb_inter",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Save_Power": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.4907,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/3491584031",
+        "AdPlacementName": "clean-gogo-newuser#save_power#admob_floor",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1455558951201571",
+        "AdPlacementName": "clean-gogo-newuser#save_power#fb_cpm",
+        "AdPlacementPriority": 15,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.235286,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/8522696662",
+        "AdPlacementName": "clean-gogo-newuser#save_power#admob",
+        "AdPlacementPriority": 40,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.473143,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1455563084534491",
+        "AdPlacementName": "clean-gogo-newuser#save_power#fb_fill",
+        "AdPlacementPriority": 45,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "d496a7bcc49f466999f9a18b87d28cf2",
+        "AdPlacementName": "clean-gogo-newuser#save_power#mopub",
+        "AdPlacementPriority": 50,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "Splash": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.4665,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "ca-app-pub-6283280398895935/2063839377",
+        "AdPlacementName": "clean-gogo-newuser#splash#admob",
+        "AdPlacementPriority": 10,
+        "AdPlacementType": "admob",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0.846596,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "1394494647308002_1421357657955034",
+        "AdPlacementName": "clean-gogo-newuser#splash#fb_fill",
+        "AdPlacementPriority": 15,
+        "AdPlacementType": "fb",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      },
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "a4027d4bdd124a199a126289683b30d8",
+        "AdPlacementName": "clean-gogo-newuser#splash#mopub",
+        "AdPlacementPriority": 30,
+        "AdPlacementType": "mopub",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ],
+    "process1": [
+      {
+        "AdDisappearInSeconds": 4.5,
+        "AdExpireInSeconds": 1800,
+        "AdPlacementCPC": 0,
+        "AdPlacementChance": 1,
+        "AdPlacementId": "14909",
+        "AdPlacementName": "clean-gogo-newuser#process1#mp",
+        "AdPlacementPriority": 100,
+        "AdPlacementType": "mp",
+        "AdRequestCount": 1,
+        "AdRequestTimeoutInSeconds": 6
+      }
+    ]
+  },
+  "AppName": "Clean-GoGo",
+  "CompareTo": "Clean-GoGo",
+  "ConfigName": "Clean-GoGo-NewUser",
+  "ExpireInSeconds": 3600,
+  "VerificationToken": ""
+}

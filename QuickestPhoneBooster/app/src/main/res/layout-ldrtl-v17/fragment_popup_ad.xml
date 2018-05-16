@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/black30p" android:padding="@dimen/gap_big" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/close" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="9dp" android:layout_width="UNKNOWN_DATA_0x2b01" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_marginLeft="10dp" android:src="@drawable/ic_close_white3" android:scaleType="fitXY" />
+        <View android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/white" android:layout_width="UNKNOWN_DATA_0x300" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="31dp" />
+        <RelativeLayout android:id="@+id/ad_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout> />

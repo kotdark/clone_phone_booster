@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/red" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x2c01" android:layout_height="UNKNOWN_DATA_0x2c01" android:src="@drawable/ic_notification_antivirus" android:scaleType="fitXY" android:contentDescription="@string/dummy_string" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_weight="1.0" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+            <TextView android:textSize="15dp" android:textColor="@color/white1" android:ellipsize="end" android:id="@+id/notice_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/antivirus_notification_content1" android:maxLines="2" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/notice_action" android:paddingLeft="@dimen/gap_small" android:paddingTop="@dimen/gap_small" android:paddingRight="@dimen/gap_small" android:paddingBottom="@dimen/gap_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:maxLines="1" android:fontFamily="sans-serif-medium" android:paddingStart="@dimen/gap_small" android:paddingEnd="@dimen/gap_small" />
+    </LinearLayout>
+</FrameLayout>

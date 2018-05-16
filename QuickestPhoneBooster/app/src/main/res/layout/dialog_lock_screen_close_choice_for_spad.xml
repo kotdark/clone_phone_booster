@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/container" android:background="0x106000d" android:padding="20dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_corner_10" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="12dp">
+            <TextView android:textSize="16sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/setting_lock_screen" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/lock_screen_special_dialog_text_size_noemal" android:textStyle="bold" android:textColor="#afb7ca" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lock_screen_setting_close_lock_screen_choice_tip" />
+        <View android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" android:layout_marginTop="4dp" android:layout_marginBottom="12dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <TextView android:textSize="@dimen/lock_screen_special_dialog_text_size_big" android:textColor="#afb7ca" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/yes_confirm" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/lock_screen_setting_close_lock_screen_choice_yes" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/lock_screen_special_dialog_text_size_big" android:textColor="#0189ff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_confirm" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/lock_screen_setting_close_lock_screen_choice_no" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

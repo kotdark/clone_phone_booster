@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/container" app:background="@drawable/bg_black30_corner_3" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <ImageView app:layout_width="UNKNOWN_DATA_0x1901" app:layout_height="UNKNOWN_DATA_0x1201" app:src="@drawable/ic_ad_tag_yellow" app:scaleType="fitStart" />
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingLeft="@dimen/gap_normal" app:paddingTop="@dimen/gap_tiny" app:paddingRight="@dimen/gap_normal" app:paddingBottom="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content" app:paddingStart="@dimen/gap_normal" app:paddingEnd="@dimen/gap_normal">
+            <utility.quickest.phonebooster.view.BacaCircleImageView app:id="@+id/ad_icon" app:layout_width="UNKNOWN_DATA_0x3201" app:layout_height="UNKNOWN_DATA_0x3201" app:scaleType="centerCrop" app:civ_image_type="0" />
+            <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_small" app:paddingRight="@dimen/gap_small" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" app:paddingStart="@dimen/gap_small" app:paddingEnd="@dimen/gap_small">
+                <TextView app:textSize="18sp" app:textColor="@color/white" app:id="@+id/ad_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="1" app:fontFamily="sans-serif-medium" />
+                <TextView app:textSize="14sp" app:textColor="@color/white70p" app:ellipsize="end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_desc" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/gap_small" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <com.google.android.gms.ads.formats.MediaView app:id="@+id/ad_media_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                <utility.quickest.phonebooster.view.BacaCircleImageViewNoLimited app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_image" app:layout_width="match_parent" app:layout_height="wrap_content" app:scaleType="fitXY" app:civ_image_type="0" app:civ_round_corner_radius_bottom_left="0dp" app:civ_round_corner_radius_bottom_right="0dp" app:civ_round_corner_radius_top_left="0dp" app:civ_round_corner_radius_top_right="0dp" />
+            </RelativeLayout>
+            <TextView app:textSize="18sp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/ad_call" app:background="@drawable/bg_ad_call_solid_blue_bottom_corner_3" app:paddingLeft="@dimen/gap_tiny" app:paddingTop="15dp" app:paddingRight="@dimen/gap_tiny" app:paddingBottom="15dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="1" app:layout_alignParentBottom="true" app:fontFamily="sans-serif-medium" app:paddingStart="@dimen/gap_tiny" app:paddingEnd="@dimen/gap_tiny" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

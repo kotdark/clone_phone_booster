@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/container" android:background="@color/black30p" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tip_container" android:background="#3e3e3e" android:padding="@dimen/gap_big" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
+        <TextView android:textSize="18sp" android:textColor="@color/white" android:padding="@dimen/gap_big" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/anim_image" android:background="@drawable/bg_enable_lock_screen_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tip" android:background="@drawable/ic_enable_lock_screen_tip" android:paddingLeft="40dp" android:paddingRight="@dimen/gap_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/window_permission_ball_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

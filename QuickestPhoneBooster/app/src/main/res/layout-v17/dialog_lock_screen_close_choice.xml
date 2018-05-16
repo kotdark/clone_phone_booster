@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/container" android:background="@color/black70p" android:padding="20dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_corner_10" android:paddingLeft="12dp" android:paddingTop="12dp" android:paddingRight="12dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="12dp">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginRight="16dp" android:src="@drawable/ic_launcher" android:contentDescription="@string/dummy_string" android:layout_marginEnd="16dp" />
+            <TextView android:textSize="16sp" android:textColor="@color/black" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/setting_lock_screen" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" />
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#afb7ca" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lock_screen_setting_close_lock_screen_choice_tip" android:paddingStart="8dp" android:paddingEnd="8dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="#afb7ca" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/yes_confirm" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/lock_screen_setting_close_lock_screen_choice_yes" android:layout_weight="1.0" />
+            <TextView android:textSize="20sp" android:textColor="#497dbf" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_confirm" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/lock_screen_setting_close_lock_screen_choice_no" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

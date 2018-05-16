@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/container" app:background="@color/white1" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:id="@+id/top_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/gap_tiny">
+            <TextView app:textSize="@dimen/launcher_ad_tag_text_size" app:textColor="@color/white" app:ellipsize="marquee" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_tag" app:background="@drawable/bg_ad_tag_google" app:paddingLeft="4dp" app:paddingRight="4dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="AD" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:background="@color/white" app:paddingTop="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="@dimen/gap_big" app:layout_marginRight="@dimen/gap_big" app:layout_marginBottom="20dp" app:layout_below="@+id/top_container">
+            <TextView app:textSize="15dp" app:textColor="@color/gray3" app:id="@+id/ad_name" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif-medium" />
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+            <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/gap_big" app:paddingRight="@dimen/gap_big" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <com.google.android.gms.ads.formats.MediaView app:id="@+id/ad_media_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                <ImageView app:id="@+id/ad_image" app:layout_width="match_parent" app:layout_height="wrap_content" app:scaleType="fitXY" app:contentDescription="@string/dummy_string" />
+            </LinearLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+            <TextView app:textSize="13dp" app:textColor="#777777" app:ellipsize="end" app:id="@+id/ad_desc" app:paddingLeft="@dimen/gap_normal" app:paddingRight="@dimen/gap_normal" app:paddingBottom="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="22dp" app:text="@string/app_name" app:maxLines="2" app:fontFamily="sans-serif" />
+        </LinearLayout>
+        <RelativeLayout app:paddingRight="@dimen/gap_normal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginRight="@dimen/gap_big" app:layout_alignParentBottom="true">
+            <TextView app:textSize="15dp" app:textColor="@color/white" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_call" app:background="@drawable/bg_ad_cta5" app:paddingLeft="20dp" app:paddingRight="20dp" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x2801" app:text="@string/app_name" app:maxLines="1" app:includeFontPadding="false" app:layout_alignParentRight="true" app:fontFamily="sans-serif-medium" />
+        </RelativeLayout>
+        <utility.quickest.phonebooster.view.BacaCircleImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_icon" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f09001c" app:layout_height="UNKNOWN_DATA_0x7f09001c" app:scaleType="centerCrop" app:civ_image_type="0" />
+    </RelativeLayout>
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>
